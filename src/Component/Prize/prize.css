@@ -1,0 +1,36 @@
+.prize-img{
+    width: 430px;
+}
+.Purple-img-1{
+    position: absolute;
+    width: 600px;
+    opacity: 0.4;
+    left: 11rem;
+    top: 2.5rem;
+}
+.Purple-img-2{
+    position: absolute;
+    width: 600px;
+    opacity: 0.6;
+    right: -25rem;
+}
+
+
+
+
+
+@media screen and (max-width: 768px){
+    .prize-text{
+        text-align: center;
+    }
+
+    .Purple-img-1{
+        left: -8rem;
+        top: -1rem;
+    }
+    .Purple-img-2{
+        right: -19rem;
+        bottom: -4rem;
+    }
+    
+}

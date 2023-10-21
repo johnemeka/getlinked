@@ -1,0 +1,53 @@
+.intro-img-1{
+    position: absolute;
+    top: 12rem;
+    left: 2rem;
+    width: 20px;
+}
+
+.intro-img-3{
+    position: absolute;
+    bottom: 8rem;
+    left: 26rem;
+    width: 50px;
+}
+.intro-text{
+    margin-top: 10rem;
+    margin-left: 3rem;
+}
+.intro-text h1{
+    font-size: 32px;
+}
+.intro-text p{
+    font-size: 15px;
+}
+
+@media screen and (max-width: 768px){
+    .container-fluid{
+        padding-top: 10rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .intro-img-1{
+        top: 8rem;
+        left: 2rem;
+        
+    }
+   
+     .intro-img-3{
+        top: 23rem;
+        left: 12rem;
+        width: 30px;
+     }
+     .intro-text{
+        text-align: center;
+        margin-left: 0;
+    }
+    .intro-text h1{
+        font-size: 20px;
+    }
+    .intro-text p{
+        font-size: 15px;
+    }
+}

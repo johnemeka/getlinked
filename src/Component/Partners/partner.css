@@ -1,0 +1,159 @@
+.partner-header{
+    background-color:#150E28 ;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+   }
+
+.border-line{
+    border: 1px solid #D434FE;
+    border-radius: 7px;
+    margin-top: 3rem;
+}
+.partner-img{
+    width: 120px;
+}
+
+.H-1{
+    width: 260px;
+    height: 5px;
+    background-color: #D434FE;
+    position: absolute;
+    bottom: 38%;
+    left: 15%;
+}
+.T-1{
+   height: 100px;
+   width: 5px; 
+   background-color: #D434FE;
+   position: absolute;
+   top: 40%;
+   left: 37%;
+}
+
+.H-2{
+    width: 260px;
+    height: 5px;
+    background-color: #D434FE;
+    position: absolute;
+    bottom: 38%;
+    left: 40%;
+}
+.T-2{
+   height: 100px;
+   width: 5px; 
+   background-color: #D434FE;
+   position: absolute;
+   top: 40%;
+   left: 62%;
+}
+.H-3{
+    width: 250px;
+    height: 5px;
+    background-color: #D434FE;
+    position: absolute;
+    bottom: 38%;
+    right: 16%;
+}
+
+.T-3{
+    height: 100px;
+    width: 5px; 
+    background-color: #D434FE;
+    position: absolute;
+    bottom: 18%;
+    left: 37%;
+ }
+ .T-4{
+    height: 100px;
+    width: 5px; 
+    background-color: #D434FE;
+    position: absolute;
+    bottom:18%;
+    left: 62%;
+ }
+.column-padding{
+    padding: 5rem 1rem 5rem 10rem;
+    /* padding-left: 5rem; */
+}
+
+.column-1{
+    padding-left: 2re;
+}
+
+@media screen and (max-width: 768px){
+    .partner-header{
+        background-color:#150E28 ;
+        position: relative;
+        width: 100%;
+        height: 50vh;
+       }
+    .column-padding{
+        padding: 40px 2px 40px 40px;
+        /* padding-left: 5rem; */
+    }
+
+    .partner-img{
+        width: 50px;
+    }
+   
+.H-1{
+    width: 90px;
+    height: 3px;
+    background-color: #D434FE;
+    position: absolute;
+    bottom: 35%;
+    left: 7%;
+    }
+
+    .T-1{
+        height: 50px;
+        width: 3px; 
+        background-color: #D434FE;
+        position: absolute;
+        top: 50%;
+        left: 34%;
+     }
+     
+     .H-2{
+        width: 90px;
+        height: 3px;
+         background-color: #D434FE;
+         position: absolute;
+         bottom: 35%;
+         left: 40%;
+     }
+     .T-2{
+        height: 50px;
+        width: 3px;  
+        background-color: #D434FE;
+        position: absolute;
+        top: 50%;
+        left: 66%;
+     }
+     .H-3{
+        width: 90px;
+        height: 3px;
+         background-color: #D434FE;
+         position: absolute;
+         bottom: 35%;
+         right: 7%;
+     }
+     
+     .T-3{
+        height: 50px;
+        width: 3px;  
+         background-color: #D434FE;
+         position: absolute;
+         bottom: 20%;
+        left: 34%;
+      }
+      .T-4{
+        height: 50px;
+        width: 3px;  
+         background-color: #D434FE;
+         position: absolute;
+         bottom: 20%;
+         left: 66%;
+      }
+}
