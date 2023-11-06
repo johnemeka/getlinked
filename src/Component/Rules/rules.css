@@ -19,7 +19,7 @@
     width: 700px;
     opacity: 0.5;
     bottom: -10rem;
-    right: -25rem;
+   left: 5rem;
 }
 @media screen and (max-width: 768px){
     .purple-light-1{

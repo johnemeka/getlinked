@@ -21,15 +21,18 @@ const navbar = () => {
           <li class="nav-item">
             <a class="nav-link text-white" href="#">FAQs</a>
           </li>
-          <Link to="/contact" style={{borderInlineStyle:"nones"}}> 
+          
           <li class="nav-item">
-            <a class="nav-link disabled text-white">Contact</a>
+          <Link to="/contact" style={{borderInlineStyle:"nones"}}>  <a class="nav-link disabled text-white">Contact</a></Link>
           </li>
-          </Link>
+          
         </ul>
+
+        <Link to="/register" style={{listStyle:"none"}}> 
         <div className="">
-      <Link to="/register" style={{listStyle:"none"}}>   <button className='btn text-white nav-btn' >register </button></Link> 
-        </div>
+          <button className='btn text-white nav-btn' >register </button>
+        </div>  </Link> 
+       
       </div>
     </div>
     
