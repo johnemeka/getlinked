@@ -31,7 +31,7 @@ const introduction = () => {
 
    
     </div>
-    <hr style={{color:"white", marginTop:"4rem", padding:"0"}} />
+    <hr className='d-none d-md-block' style={{color:"white", marginTop:"4rem", padding:"0"}} />
     </section>
    
   )

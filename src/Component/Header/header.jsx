@@ -41,7 +41,7 @@ const header = () => {
           </div>
     </div>
 
-    <hr style={{color:"white", marginTop:"6.5rem"}} />
+    <hr className='d-none d-md-block' style={{color:"white", marginTop:"6.5rem"}} />
     </div>
   )
 }

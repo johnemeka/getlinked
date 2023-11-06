@@ -5,7 +5,7 @@ import image2 from '../img/Purple-Lens-Flare-PNG (1).png'
 
 const judging = () => {
   return (
-    <div style={{ backgroundColor:'#150E28', position:"relative",width: "100%", height:"100vh" }}>
+    <div style={{ backgroundColor:'#150E28', position:"relative",width: "100%", height:"110vh" }}>
         <div class="container  ">
         <div class="row gx-5 main-content justify-content-center">
             <div class="col-md-6">
@@ -42,7 +42,7 @@ const judging = () => {
             </div>
         </div>
         </div>
-        <hr style={{color:"white", marginTop:"4rem", }} />
+        <hr className='d-none d-md-block' style={{color:"white", marginTop:"4rem", }} />
     </div>
   )
 }

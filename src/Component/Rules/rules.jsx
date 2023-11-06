@@ -31,7 +31,7 @@ const rules = () => {
       </div>
       </div>
 
-      <hr style={{color:"white", marginTop:"3rem", }} />
+      <hr className='d-none d-md-block' style={{color:"white", marginTop:"3rem", }} />
     </div>
   )
 }
