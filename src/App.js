@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import { Navbar,  Footer } from './Component';
+import { Navbar } from './Component';
 import Contact from './Pages/Contacts/contact';
 import Register from './Pages/Register/register';
 import Home from './Component/Home';
@@ -21,7 +21,7 @@ function App() {
           <Route exact path="/register" element={<Register/>} />
        
         </Routes>
-         <Footer/>
+        
       </Router>
       
      
